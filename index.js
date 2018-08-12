@@ -30,7 +30,7 @@ for(const [idx, sensor] of sensors.entries()) {
   const sensorPort = port + idx;
   const connectionMessage = `New client connected to ${sensor}`;
   const disconnectMessage = `Client disconnected from ${sensor}`;
-  const listeningMessage = `Listening for data from ${sensor} on port ${sensorPort}`;
+  const listeningMessage = `Listening for data from ${sensor} sensor on port ${sensorPort}`;
 
   socket.on("connection", socket => {
     console.log(connectionMessage);
