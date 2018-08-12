@@ -13,7 +13,7 @@ const io = socketIo(server);
 
 io.on("connection", socket => {
   console.log("New client connected");
-  setInterval(() => getApiAndEmit(socket), 10000);
+  setInterval(() => getApiAndEmit(socket), 1000);
   socket.on("disconnect", () => console.log("Client disconnected"));
 });
 
@@ -21,8 +21,8 @@ const getApiAndEmit = async socket => {
   try {
     const gyroscope = "http://www.mocky.io/v2/5b6fc5562e00002c00936580";
     const res = await fetch(gyroscope);
-
-    socket.emit("FromAPI", res);
+    const json = await res.json();
+    socket.emit("FromAPI", json);
   } catch (error) {
     console.error(`Error: ${error.code}`);
   }
