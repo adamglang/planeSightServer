@@ -1,0 +1,21 @@
+{
+  "name": "planesightservers",
+  "version": "1.0.0",
+  "description": "mock out some real time responses as if they came from an 747's IOT hardware",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "faye-websocket": "^0.11.1",
+    "http": "^0.0.0",
+    "node-fetch": "^2.2.0",
+    "pusher": "^2.1.2",
+    "pusher-feeds-server": "^0.8.2",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Adam G Lang",
+  "license": "ISC"
+}
