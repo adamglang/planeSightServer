@@ -1,0 +1,8 @@
+{
+  "device": "cabinPressure",
+  "current": 12,
+  "threshold": {
+    "warning": 10,
+    "danger": 6
+  }
+}

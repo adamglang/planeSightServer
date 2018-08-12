@@ -1,0 +1,8 @@
+{
+  "device": "toilet",
+  "current": 10,
+  "threshold": {
+    "warning": 15,
+    "danger": 19
+  }
+}

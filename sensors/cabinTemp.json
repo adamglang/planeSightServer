@@ -1,0 +1,8 @@
+{
+  "device": "cabinTemp",
+  "current": 65,
+  "threshold": {
+    "warning": 50,
+    "danger": 32
+  }
+}
