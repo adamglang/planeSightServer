@@ -4,12 +4,22 @@ const socketIo = require("socket.io");
 const fetch = require("node-fetch");
 const fs = require("fs");
 const port = process.env.PORT || 4001;
-const index = require("./routes/index");
 const app = express();
-
-app.use(index);
-
 const sensors = JSON.parse(fs.readFileSync(`${process.cwd()}/sensors/sensors.json`, "utf8"));
+const router = express.Router();
+const sensorList = router.get("/", (req, res) => {
+  res.send(sensors).status(200);
+});
+
+app.use(sensorList);
+
+app.use((req, res, next) => {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  next();
+});
+
+http.createServer(app).listen(4000, () => sensors);
 
 const emit = async (socket, sensor) => {
   try {
