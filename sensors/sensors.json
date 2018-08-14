@@ -1,5 +1,9 @@
 [
   "cabinPressure",
   "toilet",
-  "cabinTemp"
+  "cabinTemp",
+  "oxygenLevels",
+  "cargoTemperature",
+  "fuelLevels",
+  "hydraulicPressure"
 ]

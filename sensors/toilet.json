@@ -1,8 +1,12 @@
 {
-  "device": "toilet",
-  "current": 10,
+  "deviceName": "Toilet Level Sensor",
+  "goodMessage": "Toilet is at an acceptable level",
+  "warningMessage": "Toilet is nearing capacity please alert tech",
+  "dangerMessage": "Toilet is at capacity alert tech immediately",
+  "convention": "Empty %:",
+  "current": 50,
   "threshold": {
-    "warning": 15,
-    "danger": 19
+    "warning": 30,
+    "danger": 10
   }
 }

@@ -1,0 +1,12 @@
+{
+  "deviceName": "Fuel Sensor",
+  "goodMessage": "Fuel levels are at an acceptable level",
+  "warningMessage": "Fuel levels are getting low please alert tech",
+  "dangerMessage": "Fuel levels are dangerously low alert tech immediately",
+  "convention": "Gal Remaining:",
+  "current": 40000,
+  "threshold": {
+    "warning": 10000,
+    "danger": 5000
+  }
+}

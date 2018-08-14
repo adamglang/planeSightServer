@@ -1,0 +1,12 @@
+{
+  "deviceName": "Hydraulic Pressure Sensor",
+  "goodMessage": "Hydraulic Pressure is at an acceptable level",
+  "warningMessage": "Hydraulic Pressure is too low please alert tech",
+  "dangerMessage": "Hydraulic Pressure is dangerously low alert tech immediately",
+  "convention": "PSI:",
+  "current": 3001,
+  "threshold": {
+    "warning": 3000,
+    "danger": 1500
+  }
+}

@@ -1,6 +1,10 @@
 {
-  "device": "cabinPressure",
-  "current": 12,
+  "deviceName": "Cabin Pressure Sensor",
+  "goodMessage": "Cabin Pressure is at an acceptable level",
+  "warningMessage": "Cabin pressure too low please alert tech",
+  "dangerMessage": "Cabin pressure dangerously low alert tech immediately",
+  "convention": "LBS / Sqft:",
+  "current": 11,
   "threshold": {
     "warning": 10,
     "danger": 6

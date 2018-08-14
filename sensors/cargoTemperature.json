@@ -1,0 +1,12 @@
+{
+  "deviceName": "Cargo Temperature Sensor",
+  "goodMessage": "Cargo Temperature is at an acceptable level",
+  "warningMessage": "Cargo Temperature is too low please alert tech",
+  "dangerMessage": "Cargo Temperature dangerously low alert tech immediately",
+  "convention": "DEG F:",
+  "current": 60,
+  "threshold": {
+    "warning": 42,
+    "danger": 32
+  }
+}
