@@ -3,6 +3,9 @@
   "goodMessage": "Hydraulic Pressure is at an acceptable level",
   "warningMessage": "Hydraulic Pressure is too low please alert tech",
   "dangerMessage": "Hydraulic Pressure is dangerously low alert tech immediately",
+  "techPhoneNumber": "12069312099",
+  "warningMessageForTech": "Sir, the hydraulic pressure is too low. Please help ASAP.",
+  "dangerMessageForTech": "Sir, the hydraulic pressure is dangerously low! Please help immediately!",
   "convention": "PSI:",
   "current": 3001,
   "threshold": {

@@ -3,6 +3,9 @@
   "goodMessage": "Fuel levels are at an acceptable level",
   "warningMessage": "Fuel levels are getting low please alert tech",
   "dangerMessage": "Fuel levels are dangerously low alert tech immediately",
+  "techPhoneNumber": "12069312099",
+  "warningMessageForTech": "Sir, the fuel levels are too low. Please help ASAP.",
+  "dangerMessageForTech": "Sir, the fuel levels are dangerously low! Please help immediately!",
   "convention": "Gal Remaining:",
   "current": 40000,
   "threshold": {

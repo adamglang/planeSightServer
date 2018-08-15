@@ -3,6 +3,9 @@
   "goodMessage": "Oxygen levels are at an acceptable level",
   "warningMessage": "Oxygen levels too low please alert tech",
   "dangerMessage": "Oxygen levels dangerously low alert tech immediately",
+  "techPhoneNumber": "12069312099",
+  "warningMessageForTech": "Sir, the cabin oxygen levels are too low. Please help ASAP.",
+  "dangerMessageForTech": "Sir, the cabin oxygen levels are dangerously low! Please help immediately!",
   "convention": "Oxygen %:",
   "current": 20,
   "threshold": {

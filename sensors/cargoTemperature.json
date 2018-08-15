@@ -3,6 +3,9 @@
   "goodMessage": "Cargo Temperature is at an acceptable level",
   "warningMessage": "Cargo Temperature is too low please alert tech",
   "dangerMessage": "Cargo Temperature dangerously low alert tech immediately",
+  "techPhoneNumber": "12069312099",
+  "warningMessageForTech": "Sir, the cargo hold temperature is too low. Please help ASAP.",
+  "dangerMessageForTech": "Sir, the cargo hold temperature is dangerously low! Please help immediately!",
   "convention": "DEG F:",
   "current": 60,
   "threshold": {

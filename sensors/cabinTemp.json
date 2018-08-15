@@ -3,8 +3,11 @@
   "goodMessage": "Cabin Temperature is at an acceptable level",
   "warningMessage": "Cabin temperature too low please alert tech",
   "dangerMessage": "Cabin temperature dangerously low alert tech immediately",
+  "techPhoneNumber": "12069312099",
+  "warningMessageForTech": "Sir, the cabin temperature is too low. Please help ASAP.",
+  "dangerMessageForTech": "Sir, the cabin temperature is dangerously low! Please help immediately!",
   "convention": "DEG F:",
-  "current": 60,
+  "current": 55,
   "threshold": {
     "warning": 59,
     "danger": 45

@@ -3,8 +3,11 @@
   "goodMessage": "Toilet is at an acceptable level",
   "warningMessage": "Toilet is nearing capacity please alert tech",
   "dangerMessage": "Toilet is at capacity alert tech immediately",
+  "techPhoneNumber": "12069312099",
+  "warningMessageForTech": "Sir, the toilet is nearing capacity. Please help ASAP.",
+  "dangerMessageForTech": "Sir, the toilet is at capacity! Please help immediately!",
   "convention": "Empty %:",
-  "current": 50,
+  "current": 5,
   "threshold": {
     "warning": 30,
     "danger": 10
